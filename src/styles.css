@@ -1,3 +1,4 @@
+
 * {
   font-family: Helvetica, Arial, sans-serif;
   background-color: rgb(234, 234, 234);
@@ -6,6 +7,11 @@
 
 body {
   padding: 60px;
- 
+  text-align: center;
 
+}
+
+.pin{
+  width: 10px;
+  height: 10px;
 }
