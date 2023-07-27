@@ -4,6 +4,6 @@ import { WeatherApp } from './WeatherApp.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <WeatherApp/>
+    <WeatherApp />
   </React.StrictMode>,
 )

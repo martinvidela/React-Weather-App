@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export const LocationComponent = ({ onLocationChange }) => {
     const [location, setLocation] = useState(null)
 
-    const handleGetLocation = (evt) => {
+    const handleGetLocation = () => {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(position => {
                 const latitude = position.coords.latitude

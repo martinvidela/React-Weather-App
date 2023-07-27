@@ -1,17 +1,41 @@
-
 * {
   font-family: Helvetica, Arial, sans-serif;
-  background-color: rgb(234, 234, 234);
 }
 
+/* 
+:root {
 
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  background-size: cover;
+  image-rendering: pixelated;
+  
+  display: flex;
+  justify-content: center;
+}
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+ */
+
+.widget p{
+  padding: 3px;
+  color: black;
+  font-size: 30px;
+  
+}
+
+.info{
+  margin-left: 30px;
+  font-weight: bold;
+  background-image: url();
+}
 body {
-  padding: 60px;
-  text-align: center;
-
+  padding: 0px;
+  margin: 0px;
 }
 
-.pin{
+.pin {
   width: 10px;
   height: 10px;
 }
