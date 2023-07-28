@@ -1,9 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import mariosound from '../audio/mariosound.mp3';
+
 
 export const LocationComponent = ({ onLocationChange }) => {
+
     const [location, setLocation] = useState(null)
 
     const handleGetLocation = () => {
+        const audio = new Audio()
+        audio.src = mariosound
+        audio.volume = 0.02
+
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(position => {
                 const latitude = position.coords.latitude
@@ -17,9 +24,8 @@ export const LocationComponent = ({ onLocationChange }) => {
         } else {
             console.log('Error with the browser')
         }
-
+        audio.play()
     }
-
 
 
     return (

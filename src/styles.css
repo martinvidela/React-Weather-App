@@ -1,5 +1,9 @@
+@font-face {
+  font-family: Pixelfont;
+  src: url(./font/PIXEL-FONT.ttf);
+}
 * {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Pixelfont, Helvetica, sans-serif;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

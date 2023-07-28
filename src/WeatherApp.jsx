@@ -15,7 +15,6 @@ export const WeatherApp = () => {
         fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`)
             .then(res => res.json())
             .then(data => {
-                console.log(data)
                 setDataWeather(data)
             })
 
@@ -38,17 +37,15 @@ export const WeatherApp = () => {
 
     useEffect(() => {
         const [hora, minutos] = time.split(':')
-        console.log(time.split(':'))
         const horaNum = parseInt(hora)
         const timeMorning = 6 <= horaNum && horaNum < 10
         const timeDay = 10 <= horaNum && horaNum < 17
         const timeAfterNoon = 17 <= horaNum && horaNum < 20
-        const timeNight = 20 <= horaNum && horaNum < 6
+        const timeNight = 20 <= horaNum 
+        console.log(horaNum)
         if (timeMorning) {
-            console.log('--------------------aaaa----')
             setBackgroundImageTime('url(https://cutewallpaper.org/26/art-wallpaper-gif/u60ye58222-waneella-on-patreon-pixel-art-cool-pixel-art-anime-scenery.gif)')
         } else if (timeDay) {
-            console.log('--------')
             setBackgroundImageTime('url(https://thumbs.gfycat.com/UnfoldedRedJaguarundi-max-1mb.gif)')
         } else if (timeAfterNoon) {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/c0/36/28/c03628e7339e0d492cdd077acb6a9e8f.gif)')
