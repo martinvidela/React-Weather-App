@@ -12,7 +12,7 @@ export const WeatherApp = () => {
 
     const handleLocationChange = ({ latitude, longitude }) => {
         const API_KEY = '369758520e1caf8ef592dd3cd294659b'
-        fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=metric&appid=${API_KEY}`)
             .then(res => res.json())
             .then(data => {
                 setDataWeather(data)
