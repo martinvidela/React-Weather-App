@@ -40,14 +40,22 @@ export const WeatherApp = () => {
         const [hora, minutos] = time.split(':')
         console.log(time.split(':'))
         const horaNum = parseInt(hora)
-        console.log(horaNum)
-        const timeDay = 8 <= horaNum && horaNum < 19
-        if (timeDay) {
+        const timeMorning = 6 <= horaNum && horaNum < 10
+        const timeDay = 10 <= horaNum && horaNum < 17
+        const timeAfterNoon = 17 <= horaNum && horaNum < 20
+        const timeNight = 20 <= horaNum && horaNum < 6
+        if (timeMorning) {
             console.log('--------------------aaaa----')
-            setBackgroundImageTime('url(https://thumbs.gfycat.com/UnfoldedRedJaguarundi-max-1mb.gif)')
-        } else {
+            setBackgroundImageTime('url(https://cutewallpaper.org/26/art-wallpaper-gif/u60ye58222-waneella-on-patreon-pixel-art-cool-pixel-art-anime-scenery.gif)')
+        } else if (timeDay) {
             console.log('--------')
+            setBackgroundImageTime('url(https://thumbs.gfycat.com/UnfoldedRedJaguarundi-max-1mb.gif)')
+        } else if (timeAfterNoon) {
+            setBackgroundImageTime('url(https://i.pinimg.com/originals/c0/36/28/c03628e7339e0d492cdd077acb6a9e8f.gif)')
+        } else if (timeNight) {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif)')
+        } else {
+            setBackgroundImageTime('url(https://wallpapers.com/images/featured/pixel-art-6jm0bumas1tmb7hc.jpg)')
         }
 
 
@@ -68,6 +76,7 @@ export const WeatherApp = () => {
             backgroundPosition: 'center center',
             backgroundAttachment: 'fixed',
             backgroundSize: 'cover',
+
 
         }}>
             {/* Localizacion */}

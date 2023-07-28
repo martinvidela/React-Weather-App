@@ -12,19 +12,18 @@ export const WeatherWidget = ({ dataWeather, displayLocalTime }) => {
     return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`
   }
 
+  const backgroundColor = dataWeather && 'wrapper'
+
   return (
-    <div className='widget'>
-
-
-      <p> <img src={pin} alt="" /><span className='info'>{dataWeather?.name.toUpperCase()}</span></p>
-      <p> <img src={cloud} alt="" /><span className="info">{dataWeather?.weather[0].description.toUpperCase()}</span></p>
-      <p> <img src={temp} alt="" /><span className="info">{dataWeather?.main.temp}</span></p>
-      <p> <img src={drop} alt="" /><span className='info'>{dataWeather?.main.humidity}%</span></p>
-      <p>  {getDate()}</p>
-      <p> {dataWeather?.dt && displayLocalTime}</p>
-
-
-
+    <div className={backgroundColor}>
+      <div className='widget'>
+        <p> <img src={dataWeather && pin} alt="" /><span className='info'>{dataWeather?.name.toUpperCase()}</span></p>
+        <p> <img src={dataWeather && cloud} alt="" /><span className="info">{dataWeather?.weather[0].description.toUpperCase()}</span></p>
+        <p> <img src={dataWeather && temp} alt="" /><span className="info">{dataWeather?.main.temp}</span></p>
+        <p> <img src={dataWeather && drop} alt="" /><span className='info'>{dataWeather?.main.humidity}</span></p>
+        <p>  {dataWeather && getDate()}</p>
+        <p> {dataWeather?.dt && displayLocalTime}</p>
+      </div>
     </div>
   )
 }
