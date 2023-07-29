@@ -92,16 +92,29 @@ body {
   background-attachment: fixed;
 
 }
-
+/* notebook */
 @media (max-width:1450px) {
   .weatherApp {
     height: auto;
     width: auto;
   }
+  .wrapper{
+    margin: 0px 60% 0px 0px;
+  }
+  .info {
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  .widget {
+    margin-left: 50px;  
+  }
+  
+ 
 }
-
+/* celu */
 @media (max-width:426px) {
   .weatherApp{
   width: fit-content;
   }
+
 }
