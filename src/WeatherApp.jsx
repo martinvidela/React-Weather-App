@@ -51,7 +51,7 @@ export const WeatherApp = () => {
         } else if (timeNight) {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif)')
         } else {
-            setBackgroundImageTime('url(https://wallpapers.com/images/featured/pixel-art-6jm0bumas1tmb7hc.jpg)')
+            setBackgroundImageTime('url(https://i.pinimg.com/originals/13/7e/45/137e45c33cb5939abcd3ff4d8f858c63.gif)')
         }
 
 
