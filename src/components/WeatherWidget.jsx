@@ -27,5 +27,3 @@ export const WeatherWidget = ({ dataWeather, displayLocalTime }) => {
     </div>
   )
 }
-//{dataWeather?.weather.description}
-//dataWeather?.dt

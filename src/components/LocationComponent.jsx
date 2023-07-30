@@ -26,11 +26,9 @@ export const LocationComponent = ({ onLocationChange }) => {
         }
         audio.play()
     }
-
-
+    
     return (
         <div className='locationComponent'>
-
             <button onClick={handleGetLocation} className='btn'>Get your location!</button>
         </div>
     )

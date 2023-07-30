@@ -3,7 +3,6 @@ import { LocationComponent } from './components/LocationComponent'
 import './styles.css'
 import { WeatherWidget } from './components/WeatherWidget'
 
-
 export const WeatherApp = () => {
 
     const [dataWeather, setDataWeather] = useState(null)
@@ -17,9 +16,7 @@ export const WeatherApp = () => {
             .then(data => {
                 setDataWeather(data)
             })
-
     }
-
 
     const displayLocalTime = () => {
         const date = new Date(dataWeather?.dt * 1000)
@@ -31,7 +28,6 @@ export const WeatherApp = () => {
 
     useEffect(() => {
         displayLocalTime()
-
 
     }, [dataWeather])
 
@@ -69,7 +65,6 @@ export const WeatherApp = () => {
                 displayLocalTime={time}
                 key={dataWeather}
                 dataWeather={dataWeather}
-
             />
         </div>
     )

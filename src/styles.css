@@ -59,8 +59,6 @@ body {
   animation: fadeIn 1s ease-out forwards;
 }
 
-
-
 .btn {
   padding: 10px;
   background-color: pink;
@@ -75,8 +73,6 @@ body {
     opacity: 1;
   }
 }
-
-
 
 .weatherApp {
   font-synthesis: none;
@@ -100,7 +96,7 @@ body {
 
 
 /* notebook */
-@media (max-width:1450px) {
+@media (max-width:1506px) {
   .weatherApp {
     height: auto;
     width: auto;
@@ -123,7 +119,7 @@ body {
 }
 
 /* celu */
-@media (max-width:425px) {
+@media (max-width:700px) {
   .weatherApp {
     background-attachment: auto;
     background-position: auto;
