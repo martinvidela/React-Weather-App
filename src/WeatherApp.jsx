@@ -41,7 +41,7 @@ export const WeatherApp = () => {
         const timeMorning = 6 <= horaNum && horaNum < 10
         const timeDay = 10 <= horaNum && horaNum < 17
         const timeAfterNoon = 17 <= horaNum && horaNum < 20
-        const timeNight = 20 <= horaNum
+        const timeNight = 20 <= horaNum 
         if (timeMorning) {
             setBackgroundImageTime('url(https://cutewallpaper.org/26/art-wallpaper-gif/u60ye58222-waneella-on-patreon-pixel-art-cool-pixel-art-anime-scenery.gif)')
         } else if (timeDay) {
