@@ -1,10 +1,18 @@
-# React + Vite
+# Weather App!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hola! Weather App solicita tu ubicacion para consumir una API la cual le permite a la aplicacion mostrar los datos del clima en tiempo real.
+<br />
+Los datos que se ven a continuacion son: 
+* Ubicacion actual
+* Descripcion del clima
+* Temperatura
+* Humedad
+* Fecha actual
+* Hora
 
-Currently, two official plugins are available:
+Deploy en: https://react-weather-app-lemon-one.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+yarn install
 
+yarn dev
 
