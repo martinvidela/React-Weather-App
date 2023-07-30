@@ -90,7 +90,7 @@ body {
   min-width: 100%;
 }
 /* notebook */
-@media (max-width:1450px) {
+@media (max-width:1920px) {
   .weatherApp {
     height: auto;
     width: auto;
@@ -113,6 +113,8 @@ body {
   .weatherApp{
   background-attachment: auto;
   background-position: auto;
+  height: 100vh;
+
   }
 
   .wrapper{
