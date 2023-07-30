@@ -41,15 +41,12 @@ export const WeatherApp = () => {
         const timeMorning = 6 <= horaNum && horaNum < 10
         const timeDay = 10 <= horaNum && horaNum < 17
         const timeAfterNoon = 17 <= horaNum && horaNum < 20
-        const timeNight = 20 <= horaNum 
         if (timeMorning) {
             setBackgroundImageTime('url(https://cutewallpaper.org/26/art-wallpaper-gif/u60ye58222-waneella-on-patreon-pixel-art-cool-pixel-art-anime-scenery.gif)')
         } else if (timeDay) {
             setBackgroundImageTime('url(https://thumbs.gfycat.com/UnfoldedRedJaguarundi-max-1mb.gif)')
         } else if (timeAfterNoon) {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/c0/36/28/c03628e7339e0d492cdd077acb6a9e8f.gif)')
-        } else if (timeNight) {
-            setBackgroundImageTime('url(https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif)')
         } else {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/13/7e/45/137e45c33cb5939abcd3ff4d8f858c63.gif)')
         }

@@ -130,4 +130,9 @@ body {
   .widget{
     margin-left: 0px;
   }
+
+  .widget p {
+    display: flex;
+    gap: 15px;
+  }
 }
