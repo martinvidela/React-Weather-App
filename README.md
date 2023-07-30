@@ -9,6 +9,7 @@ Los datos que se ven a continuacion son:
 * Humedad
 * Fecha actual
 * Hora
+* 4 wallpapers que van rotando dependiendo la hora
 
 Deploy en: https://react-weather-app-lemon-one.vercel.app/
 
