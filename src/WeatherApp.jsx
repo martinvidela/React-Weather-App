@@ -44,7 +44,7 @@ export const WeatherApp = () => {
         } else if (timeAfterNoon) {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/c0/36/28/c03628e7339e0d492cdd077acb6a9e8f.gif)')
         } else {
-            setBackgroundImageTime('url(https://i.pinimg.com/originals/13/7e/45/137e45c33cb5939abcd3ff4d8f858c63.gif)')
+            setBackgroundImageTime('url(https://cdna.artstation.com/p/assets/images/images/036/822/576/original/karina-formanova-cover-final.gif?1618727960)')
         }
 
 
