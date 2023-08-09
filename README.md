@@ -19,7 +19,6 @@ npm run dev
 yarn dev
 ```
 
-
 ![gif-weather](https://github.com/martinvidela/React-Weather-App/assets/120694169/99c38028-b032-4851-82c5-6a816ec43806)
 
 
