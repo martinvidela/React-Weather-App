@@ -1,15 +1,15 @@
 # Getting started with Weather App!
 
-Hola! Weather App solicita tu ubicacion para consumir una API la cual le permite a la aplicacion mostrar los datos del clima en tiempo real.
+Hello! The Weather App requests your location to consume an API that enables the application to display real-time weather data. 
 <br />
-Los datos que se ven a continuacion son: 
-* Ubicacion actual
-* Descripcion del clima
-* Temperatura
-* Humedad
-* Fecha actual
-* Hora
-* 4 wallpapers que van rotando dependiendo la hora
+The data that is provided includes:
+* Current location
+* Weather description
+* Temperature
+* Humidity
+* Current date
+* Time
+* 4 wallpapers 
 
 Deploy en: https://react-weather-app-lemon-one.vercel.app/
 
