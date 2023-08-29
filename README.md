@@ -11,7 +11,7 @@ The data that is provided includes:
 * Time
 * 4 wallpapers 
 
-Deploy en: https://react-weather-app-lemon-one.vercel.app/
+Deploy: https://react-weather-app-lemon-one.vercel.app/
 
 ```bash
 npm run dev
