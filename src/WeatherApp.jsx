@@ -40,7 +40,7 @@ export const WeatherApp = () => {
         if (timeMorning) {
             setBackgroundImageTime('url(https://cutewallpaper.org/26/art-wallpaper-gif/u60ye58222-waneella-on-patreon-pixel-art-cool-pixel-art-anime-scenery.gif)')
         } else if (timeDay) {
-            setBackgroundImageTime('url(https://thumbs.gfycat.com/UnfoldedRedJaguarundi-max-1mb.gif)')
+            setBackgroundImageTime('url(https://i.pinimg.com/originals/c4/1a/75/c41a75767e2741bb005f96b4b6895898.gif)')
         } else if (timeAfterNoon) {
             setBackgroundImageTime('url(https://i.pinimg.com/originals/c0/36/28/c03628e7339e0d492cdd077acb6a9e8f.gif)')
         } else {
